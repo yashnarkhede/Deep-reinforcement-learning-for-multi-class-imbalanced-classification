@@ -1,6 +1,6 @@
-from agent import Agent
+from agent2 import Agent
 from dataset import Dataset
-from network import QNetwork
+from network2 import QNetwork
 from memory import Memory
 from option import config
 

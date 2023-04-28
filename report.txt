@@ -1,0 +1,41 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'network.py'
+ outputting to 'network2.py'
+--------------------------------------------------------------------------------
+
+10:8: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+11:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+12:25: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+13:33: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+14:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+15:26: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+16:26: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+17:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+18:38: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+19:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+21:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+24:25: INFO: Renamed 'tf.get_collection' to 'tf.compat.v1.get_collection'
+24:47: INFO: Renamed 'tf.GraphKeys' to 'tf.compat.v1.GraphKeys'
+25:27: INFO: Renamed 'tf.get_collection' to 'tf.compat.v1.get_collection'
+25:49: INFO: Renamed 'tf.GraphKeys' to 'tf.compat.v1.GraphKeys'
+31:20: INFO: tf.losses.huber_loss requires manual check. tf.losses have been replaced with object oriented versions in TF 2.0 and after. The loss function calls have been converted to compat.v1 for backward compatibility. Please update these calls to the TF 2.0 versions.
+31:20: INFO: Renamed 'tf.losses.huber_loss' to 'tf.compat.v1.losses.huber_loss'
+32:24: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+35:12: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+36:12: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+37:12: INFO: Renamed 'tf.layers.flatten' to 'tf.compat.v1.layers.flatten'
+38:12: INFO: Renamed 'tf.layers.dense' to 'tf.compat.v1.layers.dense'
+39:12: INFO: Renamed 'tf.layers.dense' to 'tf.compat.v1.layers.dense'
+40:12: INFO: Renamed 'tf.layers.dense' to 'tf.compat.v1.layers.dense'
+41:20: INFO: Added keywords to args of function 'tf.reduce_mean'
+--------------------------------------------------------------------------------
+
